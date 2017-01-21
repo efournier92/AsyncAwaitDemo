@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,20 +12,26 @@ namespace AsyncAwait
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Task.Factory.StartNew(() => BigLongMethod("George")).ContinueWith(t => label1.Text = t.Result);
-            //label1.Text = BigLongMethod("Ringo");
+            CallBigMethod();
+            label1.Text = @"Executing...";
         }
 
-        private string BigLongMethod(string name)
+        private async void CallBigMethod()
         {
-            Thread.Sleep(2000);
+            var result = await BigLongMethodAsync("John");
+            label1.Text = result;
+        }
+
+        private static Task<string> BigLongMethodAsync(string name)
+        {
+            return Task.Factory.StartNew(() => BigLongMethod(name));
+        }
+
+        private static string BigLongMethod(string name)
+        {
+            Thread.Sleep(5000);
             return "Hello " + name;
         }
     }
