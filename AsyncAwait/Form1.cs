@@ -20,16 +20,16 @@ namespace AsyncAwait
 
         private async void CallBigMethod()
         {
-            var result = await BigLongMethodAsync("John");
+            var result = await BigMethodAsync("John");
             label1.Text = result;
         }
 
-        private static Task<string> BigLongMethodAsync(string name)
+        private static Task<string> BigMethodAsync(string name)
         {
-            return Task.Factory.StartNew(() => BigLongMethod(name));
+            return Task.Factory.StartNew(() => BigMethod(name));
         }
 
-        private static string BigLongMethod(string name)
+        private static string BigMethod(string name)
         {
             Thread.Sleep(5000);
             return "Hello " + name;
