@@ -25,7 +25,8 @@ namespace AsyncAwait
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = BigLongMethod("John");
+            Task.Factory.StartNew(() => BigLongMethod("George")).ContinueWith(t => label1.Text = t.Result);
+            //label1.Text = BigLongMethod("Ringo");
         }
 
         private string BigLongMethod(string name)
