@@ -25,7 +25,9 @@ namespace AsyncAwaitDemo
 
         private void Async_Click(object sender, EventArgs e)
         {
-            Task.Factory.StartNew(() => TimeoutMethod("Async")).ContinueWith(t => StatusLabel.Text = )
+            Task.Factory.StartNew(() =>
+                TimeoutMethod("Async")).ContinueWith(t =>
+                    StatusLabel.Text = t.Result, TaskScheduler.FromCurrentSynchronizationContext());
         }
 
 
