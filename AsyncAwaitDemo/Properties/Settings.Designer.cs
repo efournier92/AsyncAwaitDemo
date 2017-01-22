@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AsyncAwait.Properties
+namespace AsyncAwaitDemo.Properties
 {
 
 

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AsyncAwait")]
+[assembly: AssemblyTitle("AsyncAwaitDemo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("PCH")]
-[assembly: AssemblyProduct("AsyncAwait")]
+[assembly: AssemblyProduct("AsyncAwaitDemo")]
 [assembly: AssemblyCopyright("Copyright © PCH 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5459909f-9403-4e79-98f7-76f7d3e18fb3")]
+[assembly: Guid("b71b3c8d-e61e-4b8b-8ac2-b07a1245d910")]
 
 // Version information for an assembly consists of the following four values:
 //
