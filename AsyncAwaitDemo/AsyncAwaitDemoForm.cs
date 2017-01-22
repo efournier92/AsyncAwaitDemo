@@ -25,11 +25,10 @@ namespace AsyncAwaitDemo
 
         private void Async_Click(object sender, EventArgs e)
         {
-            
             CallTimeoutMethod();
             StatusLabel.Text = @"Executing...";
 
-            //Same functionality without Async/Await
+            //same functionality without Async/Await
             //Task.Factory.StartNew(() =>
             //    TimeoutMethod("Async")).ContinueWith(t =>
             //        StatusLabel.Text = t.Result, TaskScheduler.FromCurrentSynchronizationContext());
@@ -48,14 +47,7 @@ namespace AsyncAwaitDemo
 
         private void AsyncAwaitDemoForm_Load(object sender, EventArgs e)
         {
-            
-        }
 
-        //private void Async_Click(object sender, EventArgs e)
-        //{
-        //    Task.Factory.StartNew(() =>
-        //        TimeoutMethod("Async")).ContinueWith(t =>
-        //            StatusLabel.Text = t.Result, TaskScheduler.FromCurrentSynchronizationContext());
-        //}
+        }
     }
 }
