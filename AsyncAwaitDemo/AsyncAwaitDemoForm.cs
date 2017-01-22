@@ -25,15 +25,37 @@ namespace AsyncAwaitDemo
 
         private void Async_Click(object sender, EventArgs e)
         {
-            Task.Factory.StartNew(() =>
-                TimeoutMethod("Async")).ContinueWith(t =>
-                    StatusLabel.Text = t.Result, TaskScheduler.FromCurrentSynchronizationContext());
+            
+            CallTimeoutMethod();
+            StatusLabel.Text = @"Executing...";
+
+            //Same functionality without Async/Await
+            //Task.Factory.StartNew(() =>
+            //    TimeoutMethod("Async")).ContinueWith(t =>
+            //        StatusLabel.Text = t.Result, TaskScheduler.FromCurrentSynchronizationContext());
         }
 
+        private async void CallTimeoutMethod()
+        {
+            var result = await TimeoutMethodAsync("Async");
+            StatusLabel.Text = result;
+        }
+
+        private static Task<string> TimeoutMethodAsync(string strategy)
+        {
+            return Task.Factory.StartNew(() => TimeoutMethod(strategy));
+        }
 
         private void AsyncAwaitDemoForm_Load(object sender, EventArgs e)
         {
             
         }
+
+        //private void Async_Click(object sender, EventArgs e)
+        //{
+        //    Task.Factory.StartNew(() =>
+        //        TimeoutMethod("Async")).ContinueWith(t =>
+        //            StatusLabel.Text = t.Result, TaskScheduler.FromCurrentSynchronizationContext());
+        //}
     }
 }
