@@ -1,1 +1,9 @@
 C:\Users\efournier\CodeSpace\AsyncAwaitDemo\AsyncAwaitDemo\bin\Debug\AsyncAwaitDemo.exe.config
+C:\Users\efournier\CodeSpace\AsyncAwaitDemo\AsyncAwaitDemo\bin\Debug\AsyncAwaitDemo.exe
+C:\Users\efournier\CodeSpace\AsyncAwaitDemo\AsyncAwaitDemo\bin\Debug\AsyncAwaitDemo.pdb
+C:\Users\efournier\CodeSpace\AsyncAwaitDemo\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.csprojResolveAssemblyReference.cache
+C:\Users\efournier\CodeSpace\AsyncAwaitDemo\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.AsyncAwaitDemoForm.resources
+C:\Users\efournier\CodeSpace\AsyncAwaitDemo\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.Properties.Resources.resources
+C:\Users\efournier\CodeSpace\AsyncAwaitDemo\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.csproj.GenerateResource.Cache
+C:\Users\efournier\CodeSpace\AsyncAwaitDemo\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.exe
+C:\Users\efournier\CodeSpace\AsyncAwaitDemo\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.pdb
