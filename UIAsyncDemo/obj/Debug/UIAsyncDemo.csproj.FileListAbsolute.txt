@@ -1,0 +1,11 @@
+C:\Users\efournier\CodeSpace\UIAsyncDemo\AsyncAwaitDemo\bin\Debug\AsyncAwaitDemo.exe.config
+C:\Users\efournier\CodeSpace\UIAsyncDemo\AsyncAwaitDemo\bin\Debug\AsyncAwaitDemo.exe
+C:\Users\efournier\CodeSpace\UIAsyncDemo\AsyncAwaitDemo\bin\Debug\AsyncAwaitDemo.pdb
+C:\Users\efournier\CodeSpace\UIAsyncDemo\AsyncAwaitDemo\obj\Debug\UIAsyncDemo.UIAsyncDemoForm.resources
+C:\Users\efournier\CodeSpace\UIAsyncDemo\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.Properties.Resources.resources
+C:\Users\efournier\CodeSpace\UIAsyncDemo\AsyncAwaitDemo\obj\Debug\UIAsyncDemo.csproj.GenerateResource.Cache
+C:\Users\efournier\CodeSpace\UIAsyncDemo\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.exe
+C:\Users\efournier\CodeSpace\UIAsyncDemo\AsyncAwaitDemo\obj\Debug\AsyncAwaitDemo.pdb
+C:\Users\efournier\CodeSpace\UIAsyncDemo\UIAsyncDemo\bin\Debug\AsyncAwaitDemo.exe.config
+C:\Users\efournier\CodeSpace\UIAsyncDemo\UIAsyncDemo\obj\Debug\AsyncAwaitDemo.exe
+C:\Users\efournier\CodeSpace\UIAsyncDemo\UIAsyncDemo\obj\Debug\AsyncAwaitDemo.pdb

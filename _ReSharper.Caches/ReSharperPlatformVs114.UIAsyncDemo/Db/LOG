@@ -1,0 +1,70 @@
+2017/05/12-15:24:06.304 3e0c Recovering log #3
+2017/05/12-15:24:06.304 3e0c Level-0 table #5: started
+2017/05/12-15:24:06.304 3e0c Level-0 table #5: 20678 bytes OK
+2017/05/12-15:24:06.304 3e0c Delete type=0 #3
+2017/05/12-15:24:06.304 3e0c Delete type=3 #2
+2017/05/12-15:24:11.835 2d70 Level-0 table #8: started
+2017/05/12-15:24:11.861 2d70 Level-0 table #8: 4119053 bytes OK
+2017/05/12-15:24:11.862 2d70 Delete type=0 #6
+2017/05/12-15:24:12.998 2d70 Level-0 table #10: started
+2017/05/12-15:24:13.022 2d70 Level-0 table #10: 3736869 bytes OK
+2017/05/12-15:24:13.023 2d70 Delete type=0 #7
+2017/05/12-15:24:22.261 2d70 Level-0 table #12: started
+2017/05/12-15:24:22.281 2d70 Level-0 table #12: 3802565 bytes OK
+2017/05/12-15:24:22.281 2d70 Delete type=0 #9
+2017/05/12-15:24:22.281 2d70 Compacting 4@0 + 0@1 files
+2017/05/12-15:24:22.301 2d70 Generated table #13: 5330 keys, 2165575 bytes
+2017/05/12-15:24:22.321 2d70 Generated table #14: 4410 keys, 2166206 bytes
+2017/05/12-15:24:22.341 2d70 Generated table #15: 3323 keys, 2169125 bytes
+2017/05/12-15:24:22.361 2d70 Generated table #16: 3071 keys, 2171143 bytes
+2017/05/12-15:24:22.381 2d70 Generated table #17: 3054 keys, 2161608 bytes
+2017/05/12-15:24:22.381 2d70 Generated table #18: 781 keys, 803922 bytes
+2017/05/12-15:24:22.381 2d70 Compacted 4@0 + 0@1 files => 11637579 bytes
+2017/05/12-15:24:22.381 2d70 Delete type=2 #5
+2017/05/12-15:24:22.381 2d70 Delete type=2 #8
+2017/05/12-15:24:22.381 2d70 Delete type=2 #10
+2017/05/12-15:24:22.381 2d70 Delete type=2 #12
+2017/05/12-15:24:22.391 2d70 compacted to: files[ 0 6 0 0 0 0 0 ]
+2017/05/12-15:24:22.391 2d70 Moved #13 to level-2 2165575 bytes OK: files[ 0 5 1 0 0 0 0 ]
+2017/05/12-15:24:24.023 2d70 Level-0 table #20: started
+2017/05/12-15:24:24.043 2d70 Level-0 table #20: 3839780 bytes OK
+2017/05/12-15:24:24.043 2d70 Delete type=0 #11
+2017/05/12-15:24:24.153 2d70 Level-0 table #22: started
+2017/05/12-15:24:24.183 2d70 Level-0 table #22: 3819210 bytes OK
+2017/05/12-15:24:24.183 2d70 Delete type=0 #19
+2017/05/12-15:24:25.671 2d70 Level-0 table #24: started
+2017/05/12-15:24:25.701 2d70 Level-0 table #24: 4254353 bytes OK
+2017/05/12-15:24:25.701 2d70 Delete type=0 #21
+2017/05/12-15:24:26.473 2d70 Compacting 3@0 + 5@1 files
+2017/05/12-15:24:26.493 2d70 Generated table #25: 4454 keys, 2164933 bytes
+2017/05/12-15:24:26.504 2d70 Generated table #26: 5017 keys, 2154462 bytes
+2017/05/12-15:24:26.513 2d70 Generated table #27: 3850 keys, 2178263 bytes
+2017/05/12-15:24:26.532 2d70 Generated table #28: 2612 keys, 2177634 bytes
+2017/05/12-15:24:26.549 2d70 Generated table #29: 3502 keys, 2160198 bytes
+2017/05/12-15:24:26.566 2d70 Generated table #30: 2591 keys, 2169305 bytes
+2017/05/12-15:24:26.583 2d70 Generated table #31: 3096 keys, 2167033 bytes
+2017/05/12-15:24:26.615 2d70 Generated table #32: 2976 keys, 2166214 bytes
+2017/05/12-15:24:26.635 2d70 Generated table #33: 2664 keys, 2180744 bytes
+2017/05/12-15:24:26.645 2d70 Generated table #34: 1931 keys, 1831815 bytes
+2017/05/12-15:24:26.645 2d70 Compacted 3@0 + 5@1 files => 21350601 bytes
+2017/05/12-15:24:26.645 2d70 Delete type=2 #14
+2017/05/12-15:24:26.645 2d70 Delete type=2 #15
+2017/05/12-15:24:26.645 2d70 Delete type=2 #16
+2017/05/12-15:24:26.645 2d70 Delete type=2 #17
+2017/05/12-15:24:26.645 2d70 Delete type=2 #18
+2017/05/12-15:24:26.645 2d70 Delete type=2 #20
+2017/05/12-15:24:26.655 2d70 Delete type=2 #22
+2017/05/12-15:24:26.655 2d70 Delete type=2 #24
+2017/05/12-15:24:26.655 2d70 compacted to: files[ 0 10 1 0 0 0 0 ]
+2017/05/12-15:24:26.655 2d70 Compacting 1@1 + 1@2 files
+2017/05/12-15:24:26.665 2d70 Generated table #35: 5341 keys, 2163787 bytes
+2017/05/12-15:24:26.673 2d70 Generated table #36: 4443 keys, 2164602 bytes
+2017/05/12-15:24:26.673 2d70 Compacted 1@1 + 1@2 files => 4328389 bytes
+2017/05/12-15:24:26.674 2d70 Delete type=2 #13
+2017/05/12-15:24:26.674 2d70 Delete type=2 #25
+2017/05/12-15:24:26.675 2d70 compacted to: files[ 0 9 2 0 0 0 0 ]
+2017/05/12-15:24:26.676 2d70 Moved #26 to level-2 2154462 bytes OK: files[ 0 8 3 0 0 0 0 ]
+2017/05/12-15:24:26.676 2d70 Moved #27 to level-2 2178263 bytes OK: files[ 0 7 4 0 0 0 0 ]
+2017/05/12-15:24:26.677 2d70 Moved #28 to level-2 2177634 bytes OK: files[ 0 6 5 0 0 0 0 ]
+2017/05/12-15:24:26.678 2d70 Moved #29 to level-2 2160198 bytes OK: files[ 0 5 6 0 0 0 0 ]
+2017/05/12-15:24:26.679 2d70 Moved #30 to level-2 2169305 bytes OK: files[ 0 4 7 0 0 0 0 ]
